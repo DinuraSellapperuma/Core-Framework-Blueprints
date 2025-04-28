@@ -1,0 +1,170 @@
+{
+  "label": "D I X Y - THEME STYLE",
+  "settings": {
+    "_custom": true,
+    "conditions": {
+      "conditions": [
+        {
+          "id": "avsrvk",
+          "main": "any"
+        }
+      ]
+    },
+    "container": {
+      "width": "var(--max-screen-width)"
+    },
+    "typography": {
+      "typographyHtml": "62.5%",
+      "typographyBody": {
+        "font-size": "var(--text-m)",
+        "color": {
+          "raw": "var(--text-body)",
+          "id": "01H7SXV8GB7CBRPWMX4FH73YS2",
+          "name": "text-body"
+        },
+        "line-height": "1.5",
+        "font-family": "Inter"
+      },
+      "typographyHeadings": {
+        "color": {
+          "raw": "var(--text-title)",
+          "id": "01H7SXSV7G1CR23F3WSEF02CEE",
+          "name": "text-title"
+        },
+        "line-height": "1.2",
+        "font-family": "Inter"
+      },
+      "focusOutline": "1px solid var(--primary)",
+      "typographyHeadingH1": {
+        "font-size": "var(--text-2xl)"
+      },
+      "typographyHeadingH2": {
+        "font-size": "var(--text-xl)"
+      },
+      "typographyHeadingH3": {
+        "font-size": "var(--text-l)"
+      },
+      "typographyHeadingH4": {
+        "font-size": "var(--text-m)"
+      },
+      "typographyHeadingH5": {
+        "font-size": "var(--text-s)"
+      },
+      "typographyHeadingH6": {
+        "font-size": "var(--text-xs)"
+      }
+    },
+    "section": {
+      "padding": {
+        "bottom": "var(--space-3xl)",
+        "top": "var(--space-3xl)",
+        "left": "var(--space-m)",
+        "right": "var(--space-m)"
+      }
+    },
+    "button": {
+      "typography": {
+        "font-size": "var(--text-s)",
+        "font-weight": "600",
+        "line-height": "150%"
+      },
+      "primaryBackground": {
+        "raw": "var(--primary)",
+        "id": "01GXBWJFMN0FTV5W63KFVZYHHA",
+        "name": "primary"
+      },
+      "primaryTypography": {
+        "color": {
+          "raw": "var(--light)",
+          "id": "01H7XJZ0KTXZ00FKVG3Y345XCP",
+          "name": "light"
+        }
+      },
+      "secondaryBackground": {
+        "raw": "var(--secondary)",
+        "id": "01GXBWJMZX793Y156N940FCB3G",
+        "name": "secondary"
+      },
+      "darkBackground": {
+        "raw": "var(--dark)",
+        "id": "01H7XJZ4GBR5DD6Q0547QE5P4H",
+        "name": "dark"
+      },
+      "sizeDefaultPadding": {
+        "bottom": "var(--space-xs)",
+        "top": "var(--space-xs)",
+        "left": "var(--space-m)",
+        "right": "var(--space-m)"
+      },
+      "border": {
+        "radius": {
+          "top": "var(--radius-xs)",
+          "right": "var(--radius-xs)",
+          "bottom": "var(--radius-xs)",
+          "left": "var(--radius-xs)"
+        }
+      },
+      "primaryBackground:hover": {
+        "raw": "var(--primary-90)",
+        "id": "01GXBWJFMN0FTV5W63KFVZYHHA.90",
+        "name": "primary-90"
+      },
+      "secondaryBackground:hover": {
+        "raw": "var(--secondary-90)",
+        "id": "01GXBWJMZX793Y156N940FCB3G.90",
+        "name": "secondary-90"
+      },
+      "darkBackground:hover": {
+        "raw": "var(--dark-90)",
+        "id": "01H7XJZ4GBR5DD6Q0547QE5P4H.90",
+        "name": "dark-90"
+      },
+      "lightBackground:hover": {
+        "raw": "var(--light-90)",
+        "id": "01H7XJZ0KTXZ00FKVG3Y345XCP.90",
+        "name": "light-90"
+      },
+      "sizeDefaultPadding:mobile_landscape": {
+        "bottom": "var(--space-s)",
+        "top": "var(--space-s)"
+      },
+      "transition": "all .2s ease",
+      "darkTypography": {
+        "color": {
+          "raw": "var(--light)",
+          "id": "01H7XJZ0KTXZ00FKVG3Y345XCP",
+          "name": "light"
+        }
+      },
+      "secondaryTypography": {
+        "color": {
+          "raw": "var(--light)",
+          "id": "01H7XJZ0KTXZ00FKVG3Y345XCP",
+          "name": "light"
+        }
+      },
+      "lightTypography": {
+        "color": {
+          "raw": "var(--dark)",
+          "id": "01H7XJZ4GBR5DD6Q0547QE5P4H",
+          "name": "dark"
+        }
+      },
+      "lightBackground": {
+        "raw": "var(--light)",
+        "id": "01H7XJZ0KTXZ00FKVG3Y345XCP",
+        "name": "light"
+      }
+    },
+    "links": {
+      "typography": {
+        "color": {
+          "raw": "var(--primary)",
+          "id": "01GXBWJFMN0FTV5W63KFVZYHHA",
+          "name": "primary"
+        }
+      }
+    }
+  },
+  "id": "d_i_x_y___theme_style"
+}
