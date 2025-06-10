@@ -80,7 +80,7 @@
   --bricks-tooltip-text: #faffff;         /* Super white for sharp readability */
 }
 
-/* Other Builder Modifications css */
+/* Other Builder Modifications css part 1 */
 
 --builder-structure-input-height: 50px;
 
@@ -99,4 +99,21 @@
     background: #e4ded4 !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px !important;
    border: #000 solid !important
+}
+
+/* Other Builder Modifications css Part 2 */
+
+#bricks-panel-elements .sortable-wrapper{
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+.bricks-add-element .element-icon {
+    font-size: 15px !important;
+}
+.element-label {
+    box-shadow: 0 -1px 0 var(--builder-bg);
+    font-size: 10px !important;
+}
+.bricks-add-element{
+    background: #000 !important;
+    border: #fff 1px solid !important;
 }
