@@ -1,0 +1,21 @@
+// Mode 1
+[data-builder-mode=custom] {
+  --builder-bg: #f5f3f0;                   /* Slightly warmer base background */
+  --builder-bg-2: #eae5df;                /* Softer secondary background */
+  --builder-bg-3: #dfd8ce;                /* More cohesive background layering */
+  --builder-bg-accent: #F0DAFF;           /* Soft pastel lavender accent */
+
+  --builder-color: #2c241a;               /* Rich, deep brown-black for text */
+  --builder-color-description: #7a6853;   /* Elegant warm tone for descriptions */
+  --builder-color-accent: #8B2EFF;        /* Vibrant purple accent (more lively than #7209B7) */
+  --builder-color-accent-inverse: #ffffff;
+
+  --builder-color-knob: #b8a99a;          /* Muted knob for subtle 3D elements */
+  --builder-border-color: #d1c6ba;        /* Refined, less contrasty border */
+  --builder-placeholder-opacity: 0.35;
+
+  --bricks-tooltip-bg: #1e1a16;           /* Deeper tooltip for better contrast */
+  --bricks-tooltip-text: #faf8f5;         /* Softer tooltip text */
+}
+
+// Mode 2
