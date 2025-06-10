@@ -25,6 +25,32 @@
   --bricks-tooltip-text: #ffffff;          /* Clean white text for tooltips */
 }
 
+/* Pure Dark Mode */
+
+[data-builder-mode=custom] {
+  /* Backgrounds */
+  --builder-bg: #121212;                   /* Deep matte black base */
+  --builder-bg-2: #1e1e1e;                 /* Slightly lighter for panels */
+  --builder-bg-3: #2a2a2a;                 /* Mid-gray layer for cards/sections */
+  --builder-bg-accent: #3a3a3a;            /* Accent background blocks */
+
+  /* Text & Description */
+  --builder-color: #ffffff;                /* Pure white for high readability */
+  --builder-color-description: #b0b0b0;    /* Soft gray for less dominant text */
+
+  /* Accent (Still Monochrome) */
+  --builder-color-accent: #ffffff;         /* White for primary buttons/links */
+  --builder-color-accent-inverse: #121212; /* Inverse for dark-on-light highlights */
+
+  /* UI Elements */
+  --builder-color-knob: #e0e0e0;           /* Light gray knobs for clean contrast */
+  --builder-border-color: #3f3f3f;         /* Subtle outline without harshness */
+  --builder-placeholder-opacity: 0.4;
+
+  /* Tooltips */
+  --bricks-tooltip-bg: #000000;            /* True black tooltip */
+  --bricks-tooltip-text: #ffffff;          /* Pure white text */
+}
 
 /* Mode 1 Default Custom Mode */
 [data-builder-mode=custom] {
