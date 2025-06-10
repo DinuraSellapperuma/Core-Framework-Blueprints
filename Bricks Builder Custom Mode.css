@@ -80,6 +80,31 @@
   --bricks-tooltip-text: #faffff;         /* Super white for sharp readability */
 }
 
+/* Neon Creative Edition – Full Light Mode */
+
+[data-builder-mode=custom] {
+  /* Backgrounds */
+  --builder-bg: #ffffff;                   /* Pure white for a crisp, clean base */
+  --builder-bg-2: #f4f4f8;                 /* Subtle contrast panel */
+  --builder-bg-3: #e9e9f0;                 /* Deeper soft layer */
+  --builder-bg-accent: #f0e6ff;            /* Neon glow-friendly lavender */
+
+  /* Primary Text & Accents */
+  --builder-color: #1a1a1a;                /* Deep neutral black text */
+  --builder-color-description: #606060;    /* Neutral gray for supporting text */
+  --builder-color-accent: #00cfff;         /* Electric blue/cyan accent */
+  --builder-color-accent-inverse: #ffffff;
+
+  /* Interactive & Controls */
+  --builder-color-knob: #ff00c8;           /* Vivid pink knobs and toggles */
+  --builder-border-color: #d8d5e2;         /* Subtle lavender-gray border tone */
+  --builder-placeholder-opacity: 0.4;
+
+  /* Tooltips */
+  --bricks-tooltip-bg: #1a1a1a;            /* Dark background for contrast */
+  --bricks-tooltip-text: #ffffff;          /* High-contrast tooltip text */
+}
+
 /* Other Builder Modifications css part 1 */
 
 --builder-structure-input-height: 50px;
