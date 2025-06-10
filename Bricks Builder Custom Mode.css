@@ -1,4 +1,4 @@
-// Mode 1
+/* Mode 1 Default Custom Mode */
 [data-builder-mode=custom] {
   --builder-bg: #f5f3f0;                   /* Slightly warmer base background */
   --builder-bg-2: #eae5df;                /* Softer secondary background */
@@ -18,7 +18,7 @@
   --bricks-tooltip-text: #faf8f5;         /* Softer tooltip text */
 }
 
-// Mode 2
+/* Mode 2 Earthy Minimal (Natural, Premium, Serene)  */
 [data-builder-mode=custom] {
   --builder-bg: #f3f0ea;
   --builder-bg-2: #e4ded4;
@@ -36,4 +36,25 @@
 
   --bricks-tooltip-bg: #1c1915;
   --bricks-tooltip-text: #f3f0ea;
+}
+
+/* Mode 3 Modern Nocturne (Dark Mode Ready, Tech-Oriented, Bold) */
+
+[data-builder-mode=custom] {
+  --builder-bg: #1c1a1e;
+  --builder-bg-2: #2a272f;
+  --builder-bg-3: #37323f;
+  --builder-bg-accent: #4a3f6d;
+
+  --builder-color: #e9e6ef;
+  --builder-color-description: #a99cb5;
+  --builder-color-accent: #d175ff;
+  --builder-color-accent-inverse: #1c1a1e;
+
+  --builder-color-knob: #847c8c;
+  --builder-border-color: #4b4553;
+  --builder-placeholder-opacity: .4;
+
+  --bricks-tooltip-bg: #111014;
+  --bricks-tooltip-text: #f5f3f9;
 }
