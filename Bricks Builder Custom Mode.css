@@ -19,3 +19,21 @@
 }
 
 // Mode 2
+[data-builder-mode=custom] {
+  --builder-bg: #f3f0ea;
+  --builder-bg-2: #e4ded4;
+  --builder-bg-3: #d6cdc1;
+  --builder-bg-accent: #d4c4b4;
+
+  --builder-color: #2a251e;
+  --builder-color-description: #6d5c49;
+  --builder-color-accent: #9f774c;
+  --builder-color-accent-inverse: #fffaf7;
+
+  --builder-color-knob: #b9a997;
+  --builder-border-color: #cec3b5;
+  --builder-placeholder-opacity: .3;
+
+  --bricks-tooltip-bg: #1c1915;
+  --bricks-tooltip-text: #f3f0ea;
+}
