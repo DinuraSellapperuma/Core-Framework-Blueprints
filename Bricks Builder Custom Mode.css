@@ -23,6 +23,7 @@
   /* Tooltips */
   --bricks-tooltip-bg: #1a1a1a;            /* Matte black tooltip background */
   --bricks-tooltip-text: #ffffff;          /* Clean white text for tooltips */
+  --builder-structure-input-height: 50px;
 }
 
 /* Pure Dark Mode */
@@ -50,6 +51,7 @@
   /* Tooltips */
   --bricks-tooltip-bg: #000000;            /* True black tooltip */
   --bricks-tooltip-text: #ffffff;          /* Pure white text */
+  --builder-structure-input-height: 50px;
 }
 
 /* Mode 1 Default Custom Mode */
