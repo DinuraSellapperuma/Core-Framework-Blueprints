@@ -1,3 +1,31 @@
+/* Pure Light MODE */
+
+[data-builder-mode=custom] {
+  /* Backgrounds */
+  --builder-bg: #ffffff;                   /* Pure white for clean main layout */
+  --builder-bg-2: #f7f7f7;                 /* Slight contrast for panels */
+  --builder-bg-3: #eeeeee;                 /* Subtle depth for sections */
+  --builder-bg-accent: #dcdcdc;            /* Soft gray for block elements */
+
+  /* Text & Description */
+  --builder-color: #111111;                /* Jet black for primary text */
+  --builder-color-description: #555555;    /* Medium gray for secondary/supporting text */
+
+  /* Accent (Still Monochrome) */
+  --builder-color-accent: #000000;         /* Bold black for buttons, highlights */
+  --builder-color-accent-inverse: #ffffff; /* For white text on black buttons */
+
+  /* UI Components */
+  --builder-color-knob: #333333;           /* Dark gray knobs for subtle elegance */
+  --builder-border-color: #cccccc;         /* Light gray borders for neatness */
+  --builder-placeholder-opacity: 0.3;      /* Just visible enough */
+
+  /* Tooltips */
+  --bricks-tooltip-bg: #1a1a1a;            /* Matte black tooltip background */
+  --bricks-tooltip-text: #ffffff;          /* Clean white text for tooltips */
+}
+
+
 /* Mode 1 Default Custom Mode */
 [data-builder-mode=custom] {
   --builder-bg: #f5f3f0;                   /* Slightly warmer base background */
