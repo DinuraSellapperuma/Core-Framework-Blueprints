@@ -79,3 +79,22 @@
   --bricks-tooltip-bg: #121212;           /* Tooltip with neon glow edge potential */
   --bricks-tooltip-text: #faffff;         /* Super white for sharp readability */
 }
+
+/* Other Builder Modifications css */
+
+#bricks-panel-elements .sortable-wrapper{
+    grid-template-columns: repeat(1, 1fr) !important;
+}
+.bricks-add-element .element-icon {
+    font-size: 15px !important;
+}
+.bricks-add-element .element-label {
+    box-shadow: 0 -1px 0 var(--builder-bg);
+    font-size: 10px !important;
+}
+.bricks-add-element{
+    backdrop-filter: blur(5px) !important;
+    background: #e4ded4 !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px !important;
+   border: #000 solid !important
+}
