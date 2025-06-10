@@ -58,3 +58,24 @@
   --bricks-tooltip-bg: #111014;
   --bricks-tooltip-text: #f5f3f9;
 }
+
+/* Mode 4 Neon Creative Edition (Vibrant, Futuristic, Attention-Grabbing)*/
+
+[data-builder-mode=custom] {
+  --builder-bg: #0d0d0d;                   /* Deep black base */
+  --builder-bg-2: #1a1a1a;                /* Slightly lifted panels */
+  --builder-bg-3: #262626;                /* Mid-depth background */
+  --builder-bg-accent: #2c006b;           /* Subtle neon glow base */
+
+  --builder-color: #f1f1f1;               /* Bright off-white for main text */
+  --builder-color-description: #bdbdbd;   /* Light gray for supporting text */
+  --builder-color-accent: #00f7ff;        /* Electric cyan (call-to-action) */
+  --builder-color-accent-inverse: #000000;
+
+  --builder-color-knob: #ff00d4;          /* Neon pink – for toggles, knobs */
+  --builder-border-color: #5c5c5c;        /* Light outline without too much contrast */
+  --builder-placeholder-opacity: .4;
+
+  --bricks-tooltip-bg: #121212;           /* Tooltip with neon glow edge potential */
+  --bricks-tooltip-text: #faffff;         /* Super white for sharp readability */
+}
